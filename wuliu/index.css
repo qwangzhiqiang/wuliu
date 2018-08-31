@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: .16rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /*  position: relative; */
+}
+
+.head {
+    width: 100%;
+    height: 0.88rem;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+
+}
+
+.head input {
+    font-size: .28rem;
+    float: left;
+    margin-top: .2rem;
+    margin-left: .2rem;
+    border: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0,0.1);
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+    color: #ccc;
+    font-size: .28rem;
+}
+
+.head .cancal {
+    display: block;
+    float: right;
+    font-size: .28rem;
+    position: absolute;
+    top: .2rem;
+    right: .2rem;
+      color: #f3f3f3;
+}
+
+.concat {
+    width: 100%;
+    margin-top: 1.05rem;
+    background-color: #f2f3f4;
+
+}
+
+.concat .box {
+    margin: 0 0.3rem;
+    background-color: #fff;
+    border: .01rem solid #dcddde;
+
+}
+
+.box .title {
+
+}
+
+.box dt {
+    height: .8rem;
+    line-height: .8rem;
+    display: block;
+    background-color: #f3f4f5;
+    color: #333;
+    font-size: .28rem;
+    border-bottom: .01rem solid #f6f6f6;
+   padding-left: .15rem;
+   margin-left: .01rem;
+
+}
+
+.box dd {
+    height: 1rem;
+    line-height: 1rem;
+    display: block;
+    color: #333;
+    font-size: .28rem;
+    border-bottom: .01rem solid #f6f6f6;
+    margin-left: .35rem;
+}
